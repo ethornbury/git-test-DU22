@@ -8,12 +8,14 @@ font-family: 'Trispace', sans-serif;
 */
 
 body{
-	
-	background-color: #3E4A61;	  
-	text-align: center;	
-	
-	color: #D9DAD7;
-	font-family: 'Trispace', sans-serif;
+ /* better to set a class and use that */	
+}
+.container{
+		background-color: #82557f;
+		background-image: url("https://wallpaper.dog/large/20459082.jpg");
+		background-repeat: no-repeat;
+		text-align: center;	
+		font-family: 'Trispace', sans-serif;
 }
 
 h1{
@@ -26,10 +28,12 @@ h1{
 	margin: 30px;   /* pushed the border away from edge of webpage */
 	border-radius: 7px; /* curved corner */
 	
-	background-color: #C24D2C;
-	
+	/* opaque background and pale text so can see against image */
+	background: rgba(0, 0, 0, 0.3);
 	color: #D9DAD7; 
-	font-family: 'Stick No Bills', sans-serif;
+	
+	font-family: 'Trispace', sans-serif;
+	font-weight: 900; 
 	
 	
 }
@@ -56,10 +60,11 @@ h1{
 	margin: 30px;
 	border-radius: 7px;
 	
+	/* opaque background and white text so can see against image */
+	background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+		
 	height: 500px;   /* gives height and makes main section big */
-	background-color: #FF5B00;
-	font: #D4D925;
-	
 }
 
 /* style for the class footer */
@@ -68,6 +73,7 @@ h1{
 	margin: 30px;
 	border-radius: 7px;
 	
-	font: #D4D925;
-	
+	/* opaque background and pale text so can see against image */
+	background: rgba(0, 0, 0, 0.3);
+	color: #D9DAD7; 
 }
