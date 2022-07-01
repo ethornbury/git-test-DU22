@@ -1,0 +1,73 @@
+/*
+CSS comment
+palette: https://colorhunt.co/palettes/random
+
+fonts
+font-family: 'Stick No Bills', sans-serif;
+font-family: 'Trispace', sans-serif;
+*/
+
+body{
+	
+	background-color: #3E4A61;	  
+	text-align: center;	
+	
+	color: #D9DAD7;
+	font-family: 'Trispace', sans-serif;
+}
+
+h1{
+	
+}
+
+/* style for the div class header */
+.header{
+	border:1px solid #C24D2C; /* border */
+	margin: 30px;   /* pushed the border away from edge of webpage */
+	border-radius: 7px; /* curved corner */
+	
+	background-color: #C24D2C;
+	
+	color: #D9DAD7; 
+	font-family: 'Stick No Bills', sans-serif;
+	
+	
+}
+
+/* style for the div class menu */
+.menu{
+	/* have it but don't need it! */
+}
+
+/* style for the class menu-btn */
+.menu-btn{
+	border:1px solid #D9DAD7;  /* border */
+	background-color: #D9DAD7;
+	text-decoration: none; /* takes the line off the link */
+	padding: 10px;  /* makes space between word and border */
+	border-radius: 3px; /* curved corner */
+	color: #C24D2C;
+	
+}
+
+/* style for the div class main */
+.main{
+	border:1px solid #990000;
+	margin: 30px;
+	border-radius: 7px;
+	
+	height: 500px;   /* gives height and makes main section big */
+	background-color: #FF5B00;
+	font: #D4D925;
+	
+}
+
+/* style for the class footer */
+.footer{
+	border:1px solid #D4D925;
+	margin: 30px;
+	border-radius: 7px;
+	
+	font: #D4D925;
+	
+}
