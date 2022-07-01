@@ -12,7 +12,8 @@ body{
 }
 .container{
 		background-color: #82557f;
-		background-image: url("https://wallpaper.dog/large/20459082.jpg");
+		/* background-image: url("https://wallpaper.dog/large/20459082.jpg"); */
+		background-image: url("background.jpg");
 		background-repeat: no-repeat;
 		text-align: center;	
 		font-family: 'Trispace', sans-serif;
